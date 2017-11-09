@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Carrera Solidaria Palmones</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_salir">Salir</string>
+    <string name="action_inscripcion">Inscripción</string>
+    <string name="action_consultarTiempo">Consultar tiempo</string>
+    <string name="action_recorrido">Recorrido</string>
+    <string name="action_infoCarrera">Información carrera</string>
+    <string name="action_agenda">Agenda</string>
+    <string name="action_galeria">Galería</string>
+    <string name="texto_agenda">15 de enero de 2018\n  Primer entrenamiento\n\n15 de febrero de 2018\n  Segundo entrenamiento</string>
+    <string name="title_activity_inscripcion">Inscripción</string>
+    <string name="title_activity_recorrido">Recorrido</string>
+    <string name="textview_IntroduceDorsal">Introduce tu dorsal:</string>
+    <string name="textview_Resultado">Tiempo: 1h 5m 36s</string>
+</resources>
