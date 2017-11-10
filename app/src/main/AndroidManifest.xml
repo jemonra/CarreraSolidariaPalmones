@@ -27,9 +27,30 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".InfoCarreraActivity" />
-        <activity android:name=".AgendaActivity" />
-        <activity android:name=".InscripcionActivity" />
+
+        <activity android:name=".InfoCarreraActivity"
+            android:parentActivityName=".MainActivity"
+            android:label="@string/title_activity_infoCarrera"/>
+
+        <activity android:name=".AgendaActivity"
+            android:parentActivityName=".MainActivity"
+            android:label="@string/title_activity_agenda"/>
+
+        <activity android:name=".InscripcionActivity"
+            android:parentActivityName=".MainActivity"
+            android:label="@string/title_activity_inscripcion"/>
+
+        <activity android:name=".RecorridoActivity"
+            android:parentActivityName=".MainActivity"
+            android:label="@string/title_activity_recorrido" />
+
+        <activity android:name=".ConsultarTiempoActivity"
+            android:parentActivityName=".MainActivity"
+            android:label="@string/title_activity_consultarTiempo"/>
+
+        <activity android:name=".GaleriaActivity"
+            android:parentActivityName=".MainActivity"
+            android:label="@string/title_activity_galeria"/>
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
@@ -42,11 +63,7 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
 
-        <activity
-            android:name=".RecorridoActivity"
-            android:label="@string/title_activity_recorrido" />
-        <activity android:name=".ConsultarTiempoActivity" />
-        <activity android:name=".GaleriaActivity"></activity>
+
 
     </application>
 

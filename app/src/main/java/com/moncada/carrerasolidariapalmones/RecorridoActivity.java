@@ -60,8 +60,8 @@ public class RecorridoActivity extends FragmentActivity implements OnMapReadyCal
             finish();
         }
 
-        LatLng palmones = new LatLng(36.1760137, -5.429987);
-        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(palmones, 16));
+        LatLng palmones = new LatLng(36.18, -5.4331);
+        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(palmones, 15));
 
         /*try{
             GeoJsonLayer layer = new GeoJsonLayer(mMap, R.raw.sample, getApplicationContext());
