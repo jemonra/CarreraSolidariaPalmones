@@ -29,7 +29,7 @@ public class InscripcionActivity extends AppCompatActivity {
         webView.setHorizontalScrollBarEnabled(false);
         //This statement hides the Horizontal scroll bar and does not remove it.
 
-        webView.loadUrl("http://www.dorsalchip.es/carrera/2018/4/15/3_Carrera_Solidaria_Palmones.aspx");
+        webView.loadUrl("http://www.dorsalchip.es/carrera/2018/4/15/III_Carrera_Solidaria_Palmones.aspx#PanelInscripcion");
         //This statement hides the scroll bar and does not remove it.
     }
 }

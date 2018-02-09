@@ -52,7 +52,7 @@ public class RecorridoActivity extends FragmentActivity implements OnMapReadyCal
 
         try
         {
-            KmlLayer kmlLayer = new KmlLayer(mMap, R.raw.palmones2, getApplicationContext());
+            KmlLayer kmlLayer = new KmlLayer(mMap, R.raw.palmones, getApplicationContext());
             kmlLayer.addLayerToMap();
         } catch (IOException e) {
             finish();

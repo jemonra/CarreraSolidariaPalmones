@@ -30,7 +30,9 @@ public class InfoCarreraActivity extends AppCompatActivity {
         webView.setHorizontalScrollBarEnabled(false);
         //This statement hides the Horizontal scroll bar and does not remove it.
 
-        webView.loadUrl("http://www.dorsalchip.es/carrera/2018/4/15/3_Carrera_Solidaria_Palmones.aspx");
+        //http://www.dorsalchip.es/carrera/2018/4/15/3_Carrera_Solidaria_Palmones.aspx
+        webView.loadUrl("https://i.imgur.com/gt6OBTf.png");
+        //webView.loadUrl("http://carrerasolidariapalmones.es/reglamento2018/reglamento2018.pdf");
         //This statement hides the scroll bar and does not remove it.
 
 

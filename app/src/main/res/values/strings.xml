@@ -5,18 +5,22 @@
     <string name="action_inscripcion">Inscripción</string>
     <string name="action_consultarTiempo">Consultar tiempo</string>
     <string name="action_recorrido">Recorrido</string>
-    <string name="action_infoCarrera">Información carrera</string>
+    <string name="action_infoCarrera">Reglamento</string>
     <string name="action_agenda">Agenda</string>
-    <string name="action_galeria">Galería</string>
+    <string name="action_galeria">Galería 2017</string>
+    <string name="action_acercaDe">Acerca de...</string>
     <string name="texto_agenda">15 de enero de 2018\n  Primer entrenamiento\n\n15 de febrero de 2018\n  Segundo entrenamiento</string>
 
-    <string name="title_activity_infoCarrera">Información de la carrera</string>
+    <string name="title_activity_infoCarrera">Reglamento</string>
     <string name="title_activity_agenda">Agenda</string>
-    <string name="title_activity_recorrido">Recorrido</string>
     <string name="title_activity_inscripcion">Inscripción</string>
     <string name="title_activity_consultarTiempo">Consultar tiempo</string>
-    <string name="title_activity_galeria">Galería</string>
+    <string name="title_activity_galeria">II Carrera Solidaria Palmones</string>
 
     <string name="textview_IntroduceDorsal">Introduce tu dorsal:</string>
     <string name="textview_Resultado">Tiempo: 1h 5m 36s</string>
+    <string name="title_activity_acerca_de">Acerca de</string>
+    <string name="textview_CarreraSolidariaWeb">www.carrerasolidariapalmones.es</string>
+    <string name="textview_VersionPrograma">Versión 5.0.</string>
+    <string name="title_activity_recorrido">Map</string>
 </resources>

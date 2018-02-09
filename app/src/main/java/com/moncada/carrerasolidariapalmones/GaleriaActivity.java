@@ -28,7 +28,7 @@ public class GaleriaActivity extends AppCompatActivity {
         webView.setHorizontalScrollBarEnabled(false);
         //This statement hides the Horizontal scroll bar and does not remove it.
 
-        webView.loadUrl("https://photos.google.com/share/AF1QipNe8UKRY62ey-x2g0iMRr6LQgxRmqF0eRyI7b8FaPiWCqisZPyP6T7BnFtJ0vvDPQ?key=cW5BQXVXekVqU3VWMmJmZGVNMFAwRkRRam53MnN3");
+        webView.loadUrl("https://photos.google.com/share/AF1QipO6WNnaT5ZxzSmGze_nhoXD0xMqQXfPdTT70gix2g1XwshoPFGYDNN-ljTQbNzDLQ?key=WmxLSEtJN0RTdVZ0d3BGa19VeTFFc1ZZdl91M21n");
         //This statement hides the scroll bar and does not remove it.
     }
 }

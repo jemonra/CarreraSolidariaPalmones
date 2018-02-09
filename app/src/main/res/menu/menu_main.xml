@@ -32,4 +32,9 @@
         android:orderInCategory="60"
         android:title="@string/action_galeria"
         app:showAsAction="never" />
+    <item
+        android:id="@+id/action_acercaDe"
+        android:orderInCategory="60"
+        android:title="@string/action_acercaDe"
+        app:showAsAction="never" />
 </menu>

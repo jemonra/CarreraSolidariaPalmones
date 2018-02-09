@@ -10,6 +10,7 @@
          location permissions for the 'MyLocation' functionality. 
     -->
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -27,30 +28,46 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".InfoCarreraActivity"
+            android:label="@string/title_activity_infoCarrera"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".AgendaActivity"
+            android:label="@string/title_activity_agenda"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".InscripcionActivity"
+            android:label="@string/title_activity_inscripcion"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ConsultarTiempoActivity"
+            android:label="@string/title_activity_consultarTiempo"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".GaleriaActivity"
+            android:label="@string/title_activity_galeria"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".AcercaDeActivity"
+            android:label="@string/title_activity_acerca_de"
+            android:parentActivityName=".MainActivity">
 
-        <activity android:name=".InfoCarreraActivity"
-            android:parentActivityName=".MainActivity"
-            android:label="@string/title_activity_infoCarrera"/>
-
-        <activity android:name=".AgendaActivity"
-            android:parentActivityName=".MainActivity"
-            android:label="@string/title_activity_agenda"/>
-
-        <activity android:name=".InscripcionActivity"
-            android:parentActivityName=".MainActivity"
-            android:label="@string/title_activity_inscripcion"/>
-
-        <activity android:name=".RecorridoActivity"
-            android:parentActivityName=".MainActivity"
-            android:label="@string/title_activity_recorrido" />
-
-        <activity android:name=".ConsultarTiempoActivity"
-            android:parentActivityName=".MainActivity"
-            android:label="@string/title_activity_consultarTiempo"/>
-
-        <activity android:name=".GaleriaActivity"
-            android:parentActivityName=".MainActivity"
-            android:label="@string/title_activity_galeria"/>
+            <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+            -->
+            <meta-data
+                android:name="com.google.android.geo.API_KEY"
+                android:value="@string/google_maps_key" />
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.moncada.carrerasolidariapalmones.MainActivity" />
+        </activity>
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
@@ -63,8 +80,13 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
 
-
-
+        <activity
+            android:name=".RecorridoActivity"
+            android:label="@string/title_activity_recorrido">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.moncada.carrerasolidariapalmones.MainActivity" />
+        </activity>
     </application>
 
 </manifest>

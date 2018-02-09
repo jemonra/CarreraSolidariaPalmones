@@ -58,7 +58,7 @@ public class AdaptadorListViewAgenda extends ArrayAdapter<String> {
         txtDescripcion3.setText(itemname[posicion][2]);
         //-- La imagen no se personaliza, siempre vamos a usar la misma
         //imageView.setImageResource(integers[posicion]);
-        imageView.setImageResource(R.drawable.calendar);
+        imageView.setImageResource(R.mipmap.calendar);
 
         return rowView;
     }
